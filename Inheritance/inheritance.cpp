@@ -14,7 +14,7 @@ class Derived : public Base
 public:
     void show()
     {
-        cout << "lund pakad" << endl;
+        cout << "display of derived" << endl;
     }
 };
 int main()
