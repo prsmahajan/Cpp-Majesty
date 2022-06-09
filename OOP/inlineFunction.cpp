@@ -3,26 +3,26 @@ using namespace std;
 class Line
 {
 public:
-    void lavda()
+    void inLine()
     {
         cout << "Inline Function" << endl;
     }
     void nonInLine();
-    inline void lavdaInline();
+    inline void codeInline();
 };
-void Line::nonInLine()
+void Line::inLine()
 {
-    cout << "Non Inline hu chumitya" << endl;
+    cout << "Non Inline" << endl;
 }
-void Line::lavdaInline()
+void Line::codeInline()
 {
-    cout << "Inline hu madarchod" << endl;
+    cout << "Inline" << endl;
 }
 
 int main()
 {
     Line l1;
-    l1.lavda();
+    l1.inLine();
     l1.nonInLine();
-    l1.lavdaInline();
+    l1.codeInline();
 }

@@ -16,7 +16,7 @@ int main()
     Base *ptr;
     ptr = &d;
     ptr->fun1();
-    ptr->fun2(); // class Base has no member such as fun2
+    // ptr->fun2(); // class Base has no member such as fun2
     // Base b;
     // Derived *ptr=&b; cannot set the value because base cannot inherit the value of derived
     return 0;
